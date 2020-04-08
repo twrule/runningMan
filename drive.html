@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Tyler Rule Running Animation</title>
+		<link rel="stylesheet" href="src/asgn2Style.css" type="text/css">
+	</head>
+
+	<body onload="main()">
+		<div id="websiteStuff">
+		<div id="partyModeOrNa">
+			<p id="HeaderText"><b>Here is One of My First 3D Graphic Projects</b></p>
+		</div>
+
+		<div id="aLittleColor">	
+			<canvas id="webgl" width="400" height="400">
+			Please use the browser supporting "canvas"
+			</canvas>
+		</div>
+
+		<div id="letsMatchColor">
+			<p>You can use your mouse to rotate the guy!</p>
+			<p>Note: Unclick your mouse if you change direction for better control</p>
+			<p>i.e. Press and hold and drag mouse to the right</p>
+			<p>When you want to go left, depress the mouse and then click and drag</p>
+		</div>
+		</div>
+		
+		<script src="lib/webgl-utils.js"></script>
+		<script src="lib/webgl-debug.js"></script>
+		<script src="lib/cuon-utils.js"></script>
+		<script src="lib/cuon-matrix.js"></script>
+		<script src="src/blockyAnimal.js"></script>
+	</body>
+</html>

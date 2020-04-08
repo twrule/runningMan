@@ -1,0 +1,92 @@
+body{
+	background-color: #aaaaaa;
+}
+
+h4{
+	margin-bottom: 1px;
+}
+
+li{
+	list-style: none;
+}
+
+#websiteStuff{
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+
+.centerClear{
+	margin: 0px;
+	padding: 10px 8px 20px 8px;
+}
+
+.mainCanvas{
+	padding-top: 4px;
+}
+
+.rowSliders{
+	display: inline;
+}
+
+#shapeColorHeader{
+	margin: 20px 2px 4px 2px;
+}
+
+#drawingModeHeader{
+	margin: 4px 2px 4px 2px;
+}
+
+#partyModeOrNa{
+	margin-top: 40px;
+	padding: 1px 0px 1px 0px;
+	background-color: #E1AD01;
+}
+
+#letsMatchColor{
+	font-size: 18px;
+	background-color: #E1AD01;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+button{
+	visibility: hidden;
+}
+button:hover{
+	background:none;
+	color: black;
+	border-color: black;
+}
+
+#partyModeBut{
+	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+	border: none;
+	color: white;
+}
+
+#partyModeBut:hover{
+	color: black;
+	background: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#aLittleColor{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	background-color: #FA8072;
+	padding-top: 4px;
+}
+
+#extraStuff{
+	margin-top: 25px;
+	margin-left: 8%;
+}
+
+#HeaderText{
+	font-size: 40px;
+
+}
